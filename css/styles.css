@@ -21,6 +21,9 @@ h1 {
 h2 {
   margin: 0;
   padding: 0;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
 }
 
 button {
@@ -33,7 +36,7 @@ header {
   color: #f9faf8;
   display: flex;
   flex-direction: column;
-  padding: 10px 150px;
+  padding: 10px 150px 90px 150px;
 }
 
 .header-upper,
@@ -54,13 +57,15 @@ header {
 
 .header-lower {
   gap: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .header-sign {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 180px;
+  min-height: 180px;
 }
 
 .header-sign div {
@@ -109,4 +114,65 @@ ul a {
 
 /* Footer */
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 40px 0;
+  margin: 0;
+}
+
 /* Index-Content */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.information-item {
+  max-width: 180px;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.information-item .img {
+  border: 5px solid #3882f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 80px;
+}
+
+.quote-badge {
+  background-color: #e5e7eb;
+  padding: 10px 200px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.author {
+  font-size: 26px;
+  color: #1f2937;
+  font-weight: bolder;
+  text-align: right;
+  margin-top: 9px;
+  margin-right: 40px;
+}
