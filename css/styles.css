@@ -7,12 +7,15 @@ body {
   padding: 0;
 }
 
+/* header */
+
 h1 {
-  margin: 0;
+  margin: -4px 0 0 -2px;
   padding: 0;
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+  line-height: 43px;
 }
 
 h2 {
@@ -50,10 +53,28 @@ header {
 }
 
 .header-lower {
-  gap: 6px;
+  gap: 30px;
 }
 
 .header-sign {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 180px;
+}
+
+.header-sign div {
+}
+
+.header-sign button {
+  display: flex;
+  align-self: flex-start;
+  background-color: #3882f6;
+  color: white;
+  margin-top: 7px;
+  padding: 4px 20px;
+  border-radius: 8px;
+  border: #1f2937;
 }
 
 .header-img {
@@ -85,3 +106,7 @@ ul a {
   font-size: 18px;
   padding: 0 0 0 20px;
 }
+
+/* Footer */
+
+/* Index-Content */
