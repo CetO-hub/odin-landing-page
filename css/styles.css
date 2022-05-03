@@ -36,7 +36,7 @@ header {
   color: #f9faf8;
   display: flex;
   flex-direction: column;
-  padding: 10px 150px 90px 150px;
+  padding: 10px 150px 50px 150px;
 }
 
 .header-upper,
@@ -47,7 +47,7 @@ header {
 }
 
 .header-upper {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 .header-upper div {
@@ -82,6 +82,11 @@ header {
   border: #1f2937;
 }
 
+.header-upper img {
+  width: 100px;
+  height: 100px;
+}
+
 .header-img {
   display: flex;
   justify-content: center;
@@ -93,6 +98,7 @@ header {
 
 .content {
   flex: 1;
+  margin-top: 30px;
 }
 
 ul {
@@ -120,7 +126,7 @@ footer {
   align-items: center;
   background-color: #1f2937;
   color: white;
-  padding: 40px 0;
+  padding: 20px 0;
   margin: 0;
 }
 
@@ -138,6 +144,7 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
+  margin-top: 30px;
 }
 .information-item {
   max-width: 180px;
@@ -159,6 +166,7 @@ footer {
 .quote-badge {
   background-color: #e5e7eb;
   padding: 10px 200px;
+  margin-top: 30px;
 }
 
 .quote {
@@ -186,7 +194,7 @@ footer {
   color: white;
   margin-bottom: 30px;
   width: 30vw;
-  margin: 0 auto 20px auto;
+  margin: auto;
   border-radius: 20px;
   gap: 30px;
 }
